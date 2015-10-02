@@ -26,3 +26,4 @@ var_dump($actionName);
 
 $app = new \Project\Application($controllerName, $actionName, $requestParams);
 $app->start();
+
